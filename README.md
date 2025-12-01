@@ -1,72 +1,82 @@
-# cracking-CEH
+# 📚 CEH v13 Study Notes: 
 
-*Just my notes on cracking CEH*
 
------
+## 📝 Course Materials
 
-## Core Study Resources
+| Description | Link |
+| :--- | :--- |
+| **CEHv13 Ai By Ec-Council Course Videos** | [https://www.1024tera.com/sharing/link?surl=RfwfZAhR9wDG41SAAWTCwg&path=%2FCEHv13%20Ai%20By%20Ec-Council%2FCEH%20v13%20Course%20Videos] |
+| **CEH v13 Materials Folder (Books/Slides/Labs)** | [https://drive.google.com/drive/folders/1NikFteMlCpAvTjS2bTia40MWaru9_61q] |
 
-These are materials referenced for the CEH v13 course:
+## 1\. Google Hacking & Dorking
 
-  * **CEH v13 Course Videos (External Link):** [CEHv13 Ai By Ec-Council Course Videos](https://www.1024tera.com/sharing/link?surl=RfwfZAhR9wDG41SAAWTCwg&path=%2FCEHv13%20Ai%20By%20Ec-Council%2FCEH%20v13%20Course%20Videos)
-  * **CEH v13 Book/Materials (Google Drive):** [CEH v13 Materials Folder](https://drive.google.com/drive/folders/1NikFteMlCpAvTjS2bTia40MWaru9_61q)
+| Tool / Resource | Link | Notes |
+| :--- | :--- | :--- |
+| **Google Hacking Database (GHDB)** | [https://www.exploit-db.com/google-hacking-database](https://www.exploit-db.com/google-hacking-database) | Comprehensive collection of vulnerable dorks. |
+| **Google Advanced Search** | [https://www.google.com/advanced\_search](https://www.google.com/advanced_search) | Use the official interface to construct complex dorks. |
+| **Shodan Commands/Cheatsheet** | `<00xNetrunner/Shodan_Cheet-Sheet Link>` | Placeholder for your specific resource. |
+| **Shodan Video Tutorial** | `<Video Tutorial Link>` | Placeholder for your specific resource. |
 
------
+## 2\. Information Gathering & OSINT Tools
 
-##  Key Reconnaissance Topics
+This section lists various online utilities and command-line tools for comprehensive reconnaissance.
 
-### Google Dorking
+### 🌐 Online Web Utilities
 
-Google Dorking, or **Google Hacking**, is the use of advanced search operators (known as **dorks**) in Google to find security holes, configuration files, and sensitive information that websites unintentionally expose to the search engine indexer.
+| Tool / Resource | Link | Purpose |
+| :--- | :--- | :--- |
+| **Whois-RWS (ARIN)** | [http://whois.arin.net/](http://whois.arin.net/) | Registry search for IP addresses and ASNs (ARIN region). |
+| **MX Lookup Tool (MX Toolbox)** | [https://mxtoolbox.com/MxLookup.aspx](https://www.google.com/search?q=https://mxtoolbox.com/MxLookup.aspx) | Mail Exchange (MX) record lookups and general DNS diagnostics. |
+| **CIDR to IPv4 Address Range Utility** | [https://www.ipaddressguide.com/cidr](https://www.ipaddressguide.com/cidr) | Converts CIDR notation to IP address ranges. |
+| **DNSDumpster** | [https://dnsdumpster.com/](https://dnsdumpster.com/) | Domain-based DNS reconnaissance and visualization. |
+| **MW Metadata (Metadata2go)** | [https://www.metadata2go.com/view-metadata](https://www.metadata2go.com/view-metadata) | View metadata of files (images, documents, etc.). |
+| **SEC.gov | EDGAR Full Text Indexer** | [https://www.sec.gov/edgar/search/efts.htm](https://www.google.com/search?q=https://www.sec.gov/edgar/search/efts.htm) | Searching for public company filings and records. |
+| **Google Maps** | [https://www.google.com/maps](https://www.google.com/maps) | Geospatial intelligence and mapping. |
+| **Google Earth** | [https://www.google.com/earth/about/versions/](https://www.google.com/earth/about/versions/) | High-resolution satellite imagery and 3D terrain. |
+| **OSINT.SH** | [https://osint.sh/](https://osint.sh/) | A collection of OSINT tools and resources. |
+| **Web Check** | [https://web-check.xyz/](https://web-check.xyz/) | All-in-one tool for discovering information about a website/host. |
 
-  * **Primary Resource:** [Google Hacking Database (GHDB)](https://www.exploit-db.com/google-hacking-database) (Based on the screenshot reference)
-  * **Reference Tool:** [Google Advanced Search](https://www.google.com/advanced_search)
+### 🕰️ Archiving & Historical Data
 
-### Shodan
+| Tool / Resource | Link | Purpose |
+| :--- | :--- | :--- |
+| **Internet Archive** | [https://archive.org/](https://archive.org/) | Digital library for historical web snapshots. |
+| **Wayback Machine** | [https://web.archive.org/](https://web.archive.org/) | View past versions of websites. |
 
-Shodan is a search engine that lets users search for various servers, webcams, routers, and other internet-connected devices based on the information provided in their service banners.
+### 🖥️ Device & Vulnerability Search Engines
 
-  * **Commands/Cheatsheet:** [00xNetrunner/Shodan\_Cheet-Sheet](https://github.com/00xNetrunner/Shodan_Cheet-Sheet)
-  * **Video Tutorial:** [Shodan Dorking Explained](https://www.google.com/search?q=https://youtu.be/mvk5dfSg8rY%3Fsi%3Dl2twADePM_-oqI_)
+| Tool / Resource | Link | Purpose |
+| :--- | :--- | :--- |
+| **Censys Search** | [https://search.censys.io/](https://search.censys.io/) | Search engine for hosts and networks on the Internet. |
+| **NAPALM FTP Indexer** | [https://sourceforge.net/directory/?q=napalm%20ftp%20indexer](https://sourceforge.net/directory/?q=napalm%20ftp%20indexer) | Search for this FTP indexer project. |
+| **FreewareWeb - FTP Search** | `<FreewareWeb - FTP Search Link>` | Legacy FTP search tool (placeholder). |
+| **Globalfilesearch** | `<Globalfilesearch Link>` | File search tool (placeholder). |
 
------
+### 🔒 Privacy-Focused Search Engines
 
-## Tools & Utility Links
+| Tool / Resource | Link | Purpose |
+| :--- | :--- | :--- |
+| **Startpage** | [https://www.startpage.com/](https://www.startpage.com/) | Google search results with privacy protection. |
+| **MetaGer** | [https://metager.org/](https://metager.org/) | Privacy-respecting meta-search engine. |
+| **eTools.ch** | [https://www.etools.ch/](https://www.etools.ch/) | Swiss-based meta-search engine. |
 
-A collection of external tools and utilities used for ethical hacking and reconnaissance:
+### 🤖 AI & General Search
 
-### Information Gathering & OSINT
+| Tool / Resource | Link | Purpose |
+| :--- | :--- | :--- |
+| **Grok** | [https://grok.xai/](https://www.google.com/search?q=https://grok.xai/) | AI from xAI. |
+| **Google Gemini** | [https://gemini.google.com/](https://gemini.google.com/) | Google's generative AI. |
+| **Perplexity** | [https://www.perplexity.ai/](https://www.perplexity.ai/) | AI-powered answer engine. |
+| **Ask.com** | [https://www.ask.com/](https://www.ask.com/) | Traditional search engine. |
 
-  * **Whois-RWS:** Whois lookup service for domain registration details.
-  * **MX Lookup Tool:** Utility for checking DNS Mail Exchange (MX) records.
-  * **CIDR to IPv4 Address Range Utility Tool:** For calculating IP address ranges from CIDR notation.
-  * **DNSDumpster:** Tool to find and lookup DNS records for a domain.
-  * **MW Metadata:** Utility for analyzing file metadata.
-  * **SEC.gov | EDGAR Full Text Indexer:** Used for researching public company financial and legal filings (OSINT).
-  * **Google Maps / Google Earth:** Used for location-based reconnaissance.
+## 3\. Other Information Gathering Tools (GitHub Links)
 
-### Archiving & Historical Data
+These are command-line tools often used for automated reconnaissance and footprinting.
 
-  * **Internet Archive:** Digital library for free and borrowable media.
-  * **Wayback Machine:** Tool for viewing archived versions of websites.
-
-### Device & Vulnerability Search
-
-  * **Censys Search:** Search engine for finding devices on the internet based on scan data.
-  * **NAPALM FTP Indexer:** Indexer for searching public FTP servers.
-  * **FreewareWeb - FTP Search:** Tool for searching files on FTP servers.
-  * **Globalfilesearch:** Global FTP search engine.
-
-### Privacy-Focused Search
-
-  * **Startpage:** Private search engine (No Tracking).
-  * **MetaGer:** Privacy-protected metasearch engine.
-  * **eTools.ch:** Transparent metasearch engine.
-
-### Artificial Intelligence (AI) & General Search
-
-  * **Grok**
-  * **Google Gemini**
-  * **Perplexity**
-  * **Ask.com**
-
+| Tool Name | Official GitHub/Website | Description |
+| :--- | :--- | :--- |
+| **Sudomy** | [https://github.com/screetsec/Sudomy](https://github.com/screetsec/Sudomy) | Automated subdomain enumeration and analysis tool. |
+| **theHarvester** | [https://github.com/laramies/theHarvester](https://github.com/laramies/theHarvester) | Gathers emails, subdomains, and names from public sources. |
+| **WhatWeb** | [https://github.com/urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | Next generation web scanner for web fingerprinting. |
+| **Raccoon** | [https://github.com/evyatarmeged/Raccoon](https://github.com/evyatarmeged/Raccoon) | High-performance offensive security tool for recon and vulnerability scanning. |
+| **Orb** | [https://orb.net/](https://orb.net/) | Intelligent network monitoring platform (also has a GitHub presence). |
