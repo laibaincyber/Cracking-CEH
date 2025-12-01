@@ -1,13 +1,4 @@
-#  CEH v13 Study Notes: Information Gathering & OSINT
-
-This repository serves as a centralized collection of resources, tools, and methodologies for the **Certified Ethical Hacker (CEH) v13** curriculum, specifically focusing on the Information Gathering and Open Source Intelligence (OSINT) phases of ethical hacking.
-
-## 📝 Course Materials
-
-| Description | Link |
-| :--- | :--- |
-| **CEHv13 Ai By Ec-Council Course Videos** | `<External Link>` |
-| **CEH v13 Materials Folder (Books/Slides/Labs)** | `<Google Drive Link>` |
+# reconnaissance
 
 ## 1\. Google Hacking & Dorking
 
@@ -81,3 +72,5 @@ These are command-line tools often used for automated reconnaissance and footpri
 | **WhatWeb** | [https://github.com/urbanadventurer/WhatWeb](https://github.com/urbanadventurer/WhatWeb) | Next generation web scanner for web fingerprinting. |
 | **Raccoon** | [https://github.com/evyatarmeged/Raccoon](https://github.com/evyatarmeged/Raccoon) | High-performance offensive security tool for recon and vulnerability scanning. |
 | **Orb** | [https://orb.net/](https://orb.net/) | Intelligent network monitoring platform (also has a GitHub presence). |
+
+⬅️ [Back to Main Index](../README.md)
